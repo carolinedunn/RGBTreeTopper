@@ -28,7 +28,7 @@ def getIndex2(x, y):
 image_list = []
 j=1
 while j<11:
-    im = Image.open('fire/{}.jpg'.format(j)) #Open images 1-10.jpg in the 'fire' folder
+    im = Image.open('/home/pi/RGBTreeTopper/fire/{}.jpg'.format(j)) #Open images 1-10.jpg in the 'fire' folder
     image_list.append(im)
     j+=1
 
